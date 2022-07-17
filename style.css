@@ -78,18 +78,27 @@ html {
   color: #fff;
 }
 
-/* .nav-item .nav-link::after {
+.text-hover {
+  transition: 0.6s;
+  background-color: #ffffff00;
+}
+
+.text-hover:hover {
+  background-color: #fff01f;
+}
+
+/* .text-hover::after {
   content: "";
   position: absolute;
   bottom: 0;
   width: 0%;
   left: 50%;
   height: 2px;
-  background: #fff;
+  background: #111;
   transition: 4s ease-out;
 }
 
-.nav-item .nav-link:hover::after {
+.text-hover:hover::after {
   width: 100%;
   left: 0;
 } */
