@@ -1,0 +1,20 @@
+@import "node_modules/bootstrap/scss/_functions.scss";
+@import "node_modules/bootstrap/scss/_variables.scss";
+@import "node_modules/bootstrap/scss/_utilities.scss";
+
+$utilities: (
+  "bg-opacity": (
+    css-var: true,
+    class: bg-opacity,
+    values: (
+      10: 0.1,
+      25: 0.85,
+      50: 0.5,
+      75: 0.75,
+      100: 1,
+      85: 0.85,
+    ),
+  ),
+);
+
+@import url(node_modules/bootstrap/scss/bootstrap.scss);
