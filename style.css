@@ -2,11 +2,21 @@ html {
   scroll-behavior: smooth;
 }
 
+.navbar-brand h4 {
+  font-size: 21px;
+  letter-spacing: 4px;
+}
+
 .navbar-brand h5 {
   font-size: 21px;
   letter-spacing: 4px;
 }
+
 .navbar-brand p {
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+.navbar-brand .tag {
   font-size: 11px;
   letter-spacing: 4px;
 }
